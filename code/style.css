@@ -1,0 +1,412 @@
+body {
+	background-color: #CFD8DC;
+	color: #ffffff;
+	font-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Courgette', cursive;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+  padding-top: 30px;
+}
+
+.rectangle {
+	width: 960px;
+  color: #000000;
+  float: left;
+  margin-right: 400px;
+}
+
+.square1 {
+	width: 50%;
+	float: left;
+  height: 600px;
+  background-color: #CFD8DC;
+  color: #000000;
+}
+
+.square2 {
+	width: 50%;
+	float: left;
+  color: #000000;
+  height: 600px;
+  background-color: #CFD8DC;
+}
+
+#logo {
+  margin-left: 10%;
+	float: left;
+	font-family: 'Courgette', cursive;
+	font-size: 70px;
+	width: auto;
+	text-align: left;
+  color: #000000;
+}
+
+.tile1 {
+	margin: 10px;
+	width: 200px;
+	height: 250px;
+	float: left;
+	text-align: center;
+  cursor: pointer;
+  color: #000000;
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 0 20px 10px #90A4AE;
+}
+
+.tile1:hover {
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.tile2 {
+	margin: 10px;
+	width: 200px;;
+	height: 250px;
+	background-color: #0066CC;
+	float: left;
+	text-align: center;
+  cursor: pointer;
+  color: #000000;
+  display: block;
+  box-shadow: 0 0 20px 10px #90A4AE;
+}
+
+.tile2:hover {
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.tile3 {
+	margin: 10px;
+	width: 200px;;
+	height: 250px;
+	background-color: #0066CC;
+	float: left;
+	text-align: center;
+  cursor: pointer;
+  color: #000000;
+  display: block;
+  box-shadow: 0 0 20px 10px #90A4AE;
+}
+
+.tile3:hover {
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.tile5 {
+	margin: 10px;
+	width: 420px;
+	height: 538px;
+	background-color: #ffffff;
+	text-align: justify;
+  color: #000000;
+  box-shadow: 0 0 20px 10px #90A4AE;
+}
+
+a.tilelink {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+  color: #000000;
+}
+
+a.tilelinkhtml5 {
+	color: #000000;
+	text-decoration: none;
+}
+
+.card-image1 {
+  height: 200px;
+  background-color: #141141;
+}
+
+#card-cont1 {
+  height: 250px;
+  background-color: #78909C;
+  line-height: 52px;
+  font-size: 26px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+#card-cont1:hover {
+  background-color: #607D8B;
+}
+
+.card-image2 {
+  height: 200px;
+  background-color: #141141;
+}
+
+#card-cont2 {
+  height: 250px;
+  background-color: #78909C;
+  line-height: 52px;
+  font-size: 26px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+#card-cont2:hover {
+  background-color: #607D8B;
+}
+
+.card-image3 {
+  height: 200px;
+  background-color: #141141;
+}
+
+#card-cont3 {
+  height: 250px;
+  background-color: #78909C;
+  line-height: 52px;
+  font-size: 26px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+#card-cont3:hover {
+  background-color: #607D8B;
+}
+
+.card-image4 {
+  height: 200px;
+  background-color: #141141;
+}
+
+#card-cont4 {
+  height: 250px;
+  background-color: #78909C;
+  line-height: 52px;
+  font-size: 26px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+#card-cont4:hover {
+  background-color: #607D8B;
+}
+
+img {
+  width: 200px;
+}
+
+#img5 {
+  width: 420px;
+  
+}
+
+.card-cont5 {
+  background-color: #78909C;
+  height: 395px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.tlo1 {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  max-width: 950px;
+  background-color: #141241;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+
+#img6 {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.proje {
+  background-color: #ffffff;
+  width: 300px;
+  height: 50px;
+  color: #000000;
+  box-shadow: 0 0 20px 10px #90A4AE;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 39.5%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.proje:hover {
+  background-color: #607D8B;
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.pro {
+  background-color: #ffffff;
+  width: 500px;
+  height: 300px;
+  float: left;
+  margin-left: 16%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #000000;
+  box-shadow: 0 0 20px 10px #90A4AE;
+  display: none;
+}
+
+.pro:hover {
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.pro2 {
+  background-color: #ffffff;
+  width: 500px;
+  height: 300px;
+  float: right;
+  margin-right: 18%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #000000;
+  box-shadow: 0 0 20px 10px #90A4AE;
+  display: none;
+}
+
+.pro2:hover {
+  box-shadow: 0 0 20px 10px grey;
+}
+
+.tyt {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.conte {
+  background-color: #ffffffff;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
+
+.cu {
+  background-color: #341113;
+  height: 260px;
+  margin-bottom: 100%;
+  display: none;
+}
+
+.perso {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.opis {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 200;
+}
+
+.zaslo {
+  background-color: #CFD8DC;
+  width: 420px;
+  height: 110px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: 200px;
+  text-align: left;
+  line-height: 25px;
+  padding-right: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 200px;
+  text-align: center;
+  line-height: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.linki {
+  background-color: #78909C;
+  width: auto;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.bariera {
+  background-color: #90A4AE;
+  width: 400px;
+  height: 2px;
+  margin-top: 85px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#gites {
+  font-size: 50px;
+  float: left;
+  margin-left: 22%;
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #330066;
+  margin: blank;
+}
+
+#gites:hover{
+  color: #6600CC;
+  cursor: pointer;
+}
+
+#faceb {
+  font-size: 50px;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #0000FF;
+}
+
+#faceb:hover {
+  color: #0033FF;
+  cursor: pointer;
+}
+
+#insta {
+  font-size: 50px;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #FF0066;
+}
+
+#insta:hover {
+  color: #FF3366;
+  cursor: pointer;
+}
+
+#twiter {
+  font-size: 50px;
+  float: left;
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #0099FF;
+}
+
+#twiter:hover {
+  color: #448AFF;
+  cursor: pointer;
+}
